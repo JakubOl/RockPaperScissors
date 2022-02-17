@@ -21,7 +21,7 @@ const playRound = function (pS, cS) {
     (pS === "paper" && cS === "paper") ||
     (pS === "scissors" && cS === "scissors")
   ) {
-    console.log(`It's a draw`);
+    console.log(`It's a tie`);
   } else if (
     (pS === "rock" && cS === "scissors") ||
     (pS === "paper" && cS === "rock") ||
@@ -43,7 +43,7 @@ const game = function (rounds) {
   return playerScore > computerScore
     ? `You won a game!`
     : playerScore === computerScore
-    ? `Its a draw`
+    ? `Its a tie`
     : `You lost a game!`;
 };
 
