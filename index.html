@@ -4,8 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
     <title>Document</title>
     <script src="./app.js"></script>
   </head>
   <body></body>
+=======
+    <title>Rock Paper Scissors</title>
+    <script defer src="./app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Rock Paper Scissors</h1>
+      <div class="outcome">
+        <div class="winnerText">
+          <h2>Choose your weapon</h2>
+          <h3>First to 5 wins</h3>
+        </div>
+        <div class="Result">
+          <div class="choosenWeapon" id="playerChoosenWeapon">?</div>
+          <div class="choosenWeapon" id="computerChoosenWeapon">?</div>
+        </div>
+        <div class="score">
+          <h3>Player: <span class="playerDisplay">0</span></h3>
+          <h3>Computer: <span class="computerDisplay">0</span></h3>
+        </div>
+      </div>
+
+      <div class="weapons">
+        <img
+          id="paper"
+          class="weapon"
+          src="./img/paper.png"
+          alt="Paper image"
+        />
+        <img id="rock" class="weapon" src="./img/rock.png" alt="Rock image" />
+        <img
+          id="scissors"
+          class="weapon"
+          src="./img/scissors.png"
+          alt="Scissors image"
+        />
+      </div>
+      <button class="btn reset">Reset</button>
+    </div>
+    <footer>
+      Copyright © 2022 JukiX
+      <a href="https://github.com/JukiX"
+        ><img src="./img/GitHub-Mark-32px.png" alt=""
+      /></a>
+    </footer>
+  </body>
+>>>>>>> rps-ui
 </html>
