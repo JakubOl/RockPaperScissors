@@ -1,2 +1,2 @@
 # RockPaperScissors
-Link: https://jukix.github.io/RockPaperScissors/
+Link: JukiX/RockPaperScissors.github.io
