@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ink Free, sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#9bafd9, #103783);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #103783;
+  font-weight: 900;
+}
+h1 {
+  margin: 1rem 0 2rem;
+  font-size: 40px;
+}
+
+.winnerText {
+  color: #103783;
+  font-weight: 900;
+}
+
+.weapons {
+  display: flex;
+  gap: 10px;
+}
+
+.weapon {
+  width: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 2px #45caff solid;
+  background: linear-gradient(#57ebde, #aefb2a);
+}
+
+.weapon:hover {
+  cursor: pointer;
+  /* background: linear-gradient(#9bafd9, #103783); */
+  transform: scale(1.1);
+}
+
+.content {
+  background: linear-gradient(#f9b16e, #f68080);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.choosenWeapon {
+  width: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 900;
+}
+.outcome {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Result {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.score {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background-color: #f68080;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}
+
+footer {
+  color: rgba(245, 240, 240, 0.76);
+  align-self: center;
+  display: flex;
+  align-items: center;
+  margin: 1em;
+}
+footer img {
+  width: 1.5em;
+  margin: 0.5em;
+}
+
+.reset {
+  margin: 10px;
+  padding: 1em;
+  color: #f68080;
+  background: #103783;
+  border: 3px #103783 solid;
+  font-weight: 700;
+  border-radius: 0.5em;
+}
+.reset:hover {
+  cursor: pointer;
+  background: #ea5459;
+  border: 3px #103783 solid;
+  color: #103783;
+}
